@@ -35,52 +35,52 @@
 <text x="24" y="568" xml:space="preserve"> <tspan fill="#9060c0">.</tspan><tspan fill="#a060c0">::</tspan><tspan fill="#b060c0">:</tspan><tspan fill="#c060c0">-</tspan><tspan fill="#c050c0">-</tspan><tspan fill="#c050b0">-</tspan><tspan fill="#c050a0">-</tspan><tspan fill="#c04090">=</tspan><tspan fill="#c04080">=</tspan><tspan fill="#c03070">=+</tspan><tspan fill="#c03060">+</tspan><tspan fill="#d03060">++</tspan><tspan fill="#d03050">+***</tspan><tspan fill="#e03040">***</tspan><tspan fill="#e03030">*#####*##*</tspan><tspan fill="#e03040">*</tspan><tspan fill="#e04050">=</tspan><tspan fill="#e05070">-</tspan><tspan fill="#d06090">.</tspan></text>
 <text x="24" y="585" xml:space="preserve"><tspan fill="#9060c0">.</tspan><tspan fill="#8060c0">:</tspan><tspan fill="#8050c0">:</tspan><tspan fill="#9050c0">:-</tspan><tspan fill="#a050c0">-</tspan><tspan fill="#b050c0">-</tspan><tspan fill="#c060c0">-</tspan><tspan fill="#c050c0">-</tspan><tspan fill="#c050b0">-</tspan><tspan fill="#c040a0">=</tspan><tspan fill="#c04090">=</tspan><tspan fill="#c04080">==</tspan><tspan fill="#c03070">++</tspan><tspan fill="#c03060">+</tspan><tspan fill="#d03060">++++</tspan><tspan fill="#d03050">++*</tspan><tspan fill="#e03050">****</tspan><tspan fill="#e03040">*</tspan><tspan fill="#e03050">++</tspan><tspan fill="#e04050">++=</tspan><tspan fill="#d05060">-</tspan><tspan fill="#d06080">.</tspan></text>
 <text x="24" y="602" xml:space="preserve"><tspan fill="#8060c0">.:</tspan><tspan fill="#8050c0">:-</tspan><tspan fill="#9050c0">-</tspan><tspan fill="#a050c0">--</tspan><tspan fill="#b050c0">-</tspan><tspan fill="#c050c0">-==</tspan><tspan fill="#c040b0">=</tspan><tspan fill="#c040a0">==</tspan><tspan fill="#c04090">==</tspan><tspan fill="#c04080">==</tspan><tspan fill="#c03070">+==+</tspan><tspan fill="#d03060">==+=</tspan><tspan fill="#d04060">=======</tspan><tspan fill="#d04070">-</tspan><tspan fill="#d05080">:</tspan></text>
-<text x="455.20000000000005" y="151.5" fill="#79c0ff">westsoever@github</text>
-<line x1="606.4000000000001" x2="925.6000000000001" y1="147.5" y2="147.5" stroke="#30363d"/>
-<text x="455.20000000000005" y="185.5" fill="#ffa657">OS:</text>
-<text x="925.6000000000001" y="185.5" fill="#e6edf3" text-anchor="end">macOS, Linux</text>
-<line x1="488.80000000000007" x2="816.4000000000001" y1="182.5" y2="182.5" stroke="#6e7681" stroke-width="2" stroke-dasharray="0.1 6" stroke-linecap="round"/>
-<text x="455.20000000000005" y="202.5" fill="#ffa657">Uptime:</text>
-<text x="925.6000000000001" y="202.5" fill="#e6edf3" text-anchor="end">25 years, 2 months, 5 days</text>
-<line x1="522.4000000000001" x2="698.8000000000002" y1="199.5" y2="199.5" stroke="#6e7681" stroke-width="2" stroke-dasharray="0.1 6" stroke-linecap="round"/>
-<text x="455.20000000000005" y="219.5" fill="#ffa657">Host:</text>
-<text x="925.6000000000001" y="219.5" fill="#e6edf3" text-anchor="end">TechBBQ</text>
-<line x1="505.6" x2="858.4000000000001" y1="216.5" y2="216.5" stroke="#6e7681" stroke-width="2" stroke-dasharray="0.1 6" stroke-linecap="round"/>
-<text x="455.20000000000005" y="236.5" fill="#ffa657">Kernel:</text>
-<text x="925.6000000000001" y="236.5" fill="#e6edf3" text-anchor="end">GenAI Engineer</text>
-<line x1="522.4000000000001" x2="799.6000000000001" y1="233.5" y2="233.5" stroke="#6e7681" stroke-width="2" stroke-dasharray="0.1 6" stroke-linecap="round"/>
-<text x="455.20000000000005" y="253.5" fill="#ffa657">IDE:</text>
-<text x="925.6000000000001" y="253.5" fill="#e6edf3" text-anchor="end">VS Code, Claude Code, Opencode</text>
-<line x1="497.20000000000005" x2="665.2" y1="250.5" y2="250.5" stroke="#6e7681" stroke-width="2" stroke-dasharray="0.1 6" stroke-linecap="round"/>
-<text x="455.20000000000005" y="287.5" fill="#ffa657">Languages.Programming:</text>
-<text x="925.6000000000001" y="287.5" fill="#e6edf3" text-anchor="end">TypeScript, Python, Swift, Shell</text>
-<line x1="648.4000000000001" x2="648.4000000000001" y1="284.5" y2="284.5" stroke="#6e7681" stroke-width="2" stroke-dasharray="0.1 6" stroke-linecap="round"/>
-<text x="455.20000000000005" y="304.5" fill="#ffa657">Languages.Real:</text>
-<text x="925.6000000000001" y="304.5" fill="#e6edf3" text-anchor="end">German, English, Danish</text>
-<line x1="589.6" x2="724.0000000000001" y1="301.5" y2="301.5" stroke="#6e7681" stroke-width="2" stroke-dasharray="0.1 6" stroke-linecap="round"/>
+<text x="455.20000000000005" y="41.0" fill="#79c0ff">westsoever@github</text>
+<line x1="606.4000000000001" x2="925.6000000000001" y1="37.0" y2="37.0" stroke="#30363d"/>
+<text x="455.20000000000005" y="97.1" fill="#ffa657">OS:</text>
+<text x="925.6000000000001" y="97.1" fill="#e6edf3" text-anchor="end">macOS, Linux</text>
+<line x1="488.80000000000007" x2="816.4000000000001" y1="94.1" y2="94.1" stroke="#6e7681" stroke-width="2" stroke-dasharray="0.1 6" stroke-linecap="round"/>
+<text x="455.20000000000005" y="125.15" fill="#ffa657">Uptime:</text>
+<text x="925.6000000000001" y="125.15" fill="#e6edf3" text-anchor="end">25 years, 2 months, 5 days</text>
+<line x1="522.4000000000001" x2="698.8000000000002" y1="122.15" y2="122.15" stroke="#6e7681" stroke-width="2" stroke-dasharray="0.1 6" stroke-linecap="round"/>
+<text x="455.20000000000005" y="153.2" fill="#ffa657">Host:</text>
+<text x="925.6000000000001" y="153.2" fill="#e6edf3" text-anchor="end">TechBBQ</text>
+<line x1="505.6" x2="858.4000000000001" y1="150.2" y2="150.2" stroke="#6e7681" stroke-width="2" stroke-dasharray="0.1 6" stroke-linecap="round"/>
+<text x="455.20000000000005" y="181.25" fill="#ffa657">Kernel:</text>
+<text x="925.6000000000001" y="181.25" fill="#e6edf3" text-anchor="end">GenAI Engineer</text>
+<line x1="522.4000000000001" x2="799.6000000000001" y1="178.25" y2="178.25" stroke="#6e7681" stroke-width="2" stroke-dasharray="0.1 6" stroke-linecap="round"/>
+<text x="455.20000000000005" y="209.3" fill="#ffa657">IDE:</text>
+<text x="925.6000000000001" y="209.3" fill="#e6edf3" text-anchor="end">VS Code, Claude Code, Opencode</text>
+<line x1="497.20000000000005" x2="665.2" y1="206.3" y2="206.3" stroke="#6e7681" stroke-width="2" stroke-dasharray="0.1 6" stroke-linecap="round"/>
+<text x="455.20000000000005" y="265.4" fill="#ffa657">Languages.Programming:</text>
+<text x="925.6000000000001" y="265.4" fill="#e6edf3" text-anchor="end">TypeScript, Python, Swift, Shell</text>
+<line x1="648.4000000000001" x2="648.4000000000001" y1="262.4" y2="262.4" stroke="#6e7681" stroke-width="2" stroke-dasharray="0.1 6" stroke-linecap="round"/>
+<text x="455.20000000000005" y="293.45000000000005" fill="#ffa657">Languages.Real:</text>
+<text x="925.6000000000001" y="293.45000000000005" fill="#e6edf3" text-anchor="end">German, English, Danish</text>
+<line x1="589.6" x2="724.0000000000001" y1="290.45000000000005" y2="290.45000000000005" stroke="#6e7681" stroke-width="2" stroke-dasharray="0.1 6" stroke-linecap="round"/>
 <text x="455.20000000000005" y="321.5" fill="#ffa657">Hobbies:</text>
 <text x="925.6000000000001" y="321.5" fill="#e6edf3" text-anchor="end">Ultrarunning, Poetry, Bastler</text>
 <line x1="530.8000000000001" x2="673.6000000000001" y1="318.5" y2="318.5" stroke="#6e7681" stroke-width="2" stroke-dasharray="0.1 6" stroke-linecap="round"/>
-<text x="455.20000000000005" y="355.5" fill="#79c0ff">Contact</text>
-<line x1="522.4000000000001" x2="925.6000000000001" y1="351.5" y2="351.5" stroke="#30363d"/>
-<text x="455.20000000000005" y="372.5" fill="#ffa657">Email:</text>
-<text x="925.6000000000001" y="372.5" fill="#e6edf3" text-anchor="end">info@sunseekerlabs.dk</text>
-<line x1="514.0" x2="740.8000000000002" y1="369.5" y2="369.5" stroke="#6e7681" stroke-width="2" stroke-dasharray="0.1 6" stroke-linecap="round"/>
-<text x="455.20000000000005" y="389.5" fill="#ffa657">LinkedIn:</text>
-<text x="925.6000000000001" y="389.5" fill="#e6edf3" text-anchor="end">in/lennert-jessen</text>
-<line x1="539.2" x2="774.4000000000001" y1="386.5" y2="386.5" stroke="#6e7681" stroke-width="2" stroke-dasharray="0.1 6" stroke-linecap="round"/>
-<text x="455.20000000000005" y="423.5" fill="#79c0ff">GitHub Stats</text>
-<line x1="564.4000000000001" x2="925.6000000000001" y1="419.5" y2="419.5" stroke="#30363d"/>
-<text x="455.20000000000005" y="440.5" fill="#ffa657">Repos:</text>
-<text x="925.6000000000001" y="440.5" fill="#7ee787" text-anchor="end">13</text>
-<line x1="514.0" x2="900.4000000000001" y1="437.5" y2="437.5" stroke="#6e7681" stroke-width="2" stroke-dasharray="0.1 6" stroke-linecap="round"/>
-<text x="455.20000000000005" y="457.5" fill="#ffa657">Stars:</text>
-<text x="925.6000000000001" y="457.5" fill="#7ee787" text-anchor="end">4</text>
-<line x1="514.0" x2="908.8000000000002" y1="454.5" y2="454.5" stroke="#6e7681" stroke-width="2" stroke-dasharray="0.1 6" stroke-linecap="round"/>
-<text x="455.20000000000005" y="474.5" fill="#ffa657">Commits:</text>
-<text x="925.6000000000001" y="474.5" fill="#7ee787" text-anchor="end">187</text>
-<line x1="530.8000000000001" x2="892.0000000000001" y1="471.5" y2="471.5" stroke="#6e7681" stroke-width="2" stroke-dasharray="0.1 6" stroke-linecap="round"/>
-<text x="455.20000000000005" y="491.5" fill="#ffa657">Followers:</text>
-<text x="925.6000000000001" y="491.5" fill="#7ee787" text-anchor="end">0</text>
-<line x1="547.6" x2="908.8000000000002" y1="488.5" y2="488.5" stroke="#6e7681" stroke-width="2" stroke-dasharray="0.1 6" stroke-linecap="round"/>
+<text x="455.20000000000005" y="377.6" fill="#79c0ff">Contact</text>
+<line x1="522.4000000000001" x2="925.6000000000001" y1="373.6" y2="373.6" stroke="#30363d"/>
+<text x="455.20000000000005" y="405.65000000000003" fill="#ffa657">Email:</text>
+<text x="925.6000000000001" y="405.65000000000003" fill="#e6edf3" text-anchor="end">info@sunseekerlabs.dk</text>
+<line x1="514.0" x2="740.8000000000002" y1="402.65000000000003" y2="402.65000000000003" stroke="#6e7681" stroke-width="2" stroke-dasharray="0.1 6" stroke-linecap="round"/>
+<text x="455.20000000000005" y="433.7" fill="#ffa657">LinkedIn:</text>
+<text x="925.6000000000001" y="433.7" fill="#e6edf3" text-anchor="end">in/lennert-jessen</text>
+<line x1="539.2" x2="774.4000000000001" y1="430.7" y2="430.7" stroke="#6e7681" stroke-width="2" stroke-dasharray="0.1 6" stroke-linecap="round"/>
+<text x="455.20000000000005" y="489.8" fill="#79c0ff">GitHub Stats</text>
+<line x1="564.4000000000001" x2="925.6000000000001" y1="485.8" y2="485.8" stroke="#30363d"/>
+<text x="455.20000000000005" y="517.85" fill="#ffa657">Repos:</text>
+<text x="925.6000000000001" y="517.85" fill="#7ee787" text-anchor="end">13</text>
+<line x1="514.0" x2="900.4000000000001" y1="514.85" y2="514.85" stroke="#6e7681" stroke-width="2" stroke-dasharray="0.1 6" stroke-linecap="round"/>
+<text x="455.20000000000005" y="545.9000000000001" fill="#ffa657">Stars:</text>
+<text x="925.6000000000001" y="545.9000000000001" fill="#7ee787" text-anchor="end">4</text>
+<line x1="514.0" x2="908.8000000000002" y1="542.9000000000001" y2="542.9000000000001" stroke="#6e7681" stroke-width="2" stroke-dasharray="0.1 6" stroke-linecap="round"/>
+<text x="455.20000000000005" y="573.95" fill="#ffa657">Commits:</text>
+<text x="925.6000000000001" y="573.95" fill="#7ee787" text-anchor="end">187</text>
+<line x1="530.8000000000001" x2="892.0000000000001" y1="570.95" y2="570.95" stroke="#6e7681" stroke-width="2" stroke-dasharray="0.1 6" stroke-linecap="round"/>
+<text x="455.20000000000005" y="602.0" fill="#ffa657">Followers:</text>
+<text x="925.6000000000001" y="602.0" fill="#7ee787" text-anchor="end">0</text>
+<line x1="547.6" x2="908.8000000000002" y1="599.0" y2="599.0" stroke="#6e7681" stroke-width="2" stroke-dasharray="0.1 6" stroke-linecap="round"/>
 </g></svg>

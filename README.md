@@ -1,1 +1,1 @@
-<p align="center"><img src="profile.svg" alt="westsoever: AI Engineer at TechBBQ. OS macOS, Linux. IDE VS Code, Claude Code, Opencode. Languages TypeScript, Python, Swift, Shell. Contact info@sunseekerlabs.dk, linkedin.com/in/lennert-jessen"></p>
+<p align="center"><img src="profile.svg" alt="westsoever: GenAI Engineer at TechBBQ. OS macOS, Linux. IDE VS Code, Claude Code, Opencode. Programming TypeScript, Python, Swift, Shell. Languages German, English, Danish. Hobbies Ultrarunning, Poetry, Bastler. Contact info@sunseekerlabs.dk, linkedin.com/in/lennert-jessen"></p>

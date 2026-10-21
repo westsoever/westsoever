@@ -17,12 +17,13 @@ jobs:
       - name: Refresh profile.svg
         env:
           PAT: ${{ secrets.PROFILE_STATS_TOKEN }}
-          FALLBACK: ${{ github.token }}
         run: |
+          # Without the token the stats would be public-only and lower the card, so leave it as it is.
           if [ -z "$PAT" ]; then
-            echo "::warning::PROFILE_STATS_TOKEN is not set. Falling back to GITHUB_TOKEN, so private-repo stats (repos, stars, commits) will be missing."
+            echo "::warning::PROFILE_STATS_TOKEN is not set. Skipping the refresh so the card keeps its private-repo stats."
+            exit 0
           fi
-          GH_TOKEN="${PAT:-$FALLBACK}" python3 -I refresh.py
+          GH_TOKEN="$PAT" python3 -I refresh.py
 
       - name: Commit if changed
         run: |

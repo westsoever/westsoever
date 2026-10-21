@@ -1,0 +1,36 @@
+name: Refresh profile stats
+
+on:
+  schedule:
+    - cron: "7 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Refresh profile.svg
+        env:
+          PAT: ${{ secrets.PROFILE_STATS_TOKEN }}
+          FALLBACK: ${{ github.token }}
+        run: |
+          if [ -z "$PAT" ]; then
+            echo "::warning::PROFILE_STATS_TOKEN is not set. Falling back to GITHUB_TOKEN, so private-repo stats (repos, stars, commits) will be missing."
+          fi
+          GH_TOKEN="${PAT:-$FALLBACK}" python3 -I refresh.py
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- profile.svg; then
+            echo "Nothing changed."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Refresh profile stats" -- profile.svg
+          git push

@@ -66,7 +66,7 @@
 <text x="925.6000000000001" y="347" fill="#7ee787" text-anchor="end">6</text>
 <line x1="514.0" x2="908.8000000000002" y1="344" y2="344" stroke="#6e7681" stroke-width="2" stroke-dasharray="0.1 6" stroke-linecap="round"/>
 <text x="455.20000000000005" y="364" fill="#ffa657">Commits:</text>
-<text x="925.6000000000001" y="364" fill="#7ee787" text-anchor="end">3,071</text>
+<text x="925.6000000000001" y="364" fill="#7ee787" text-anchor="end">6,603</text>
 <line x1="530.8000000000001" x2="875.2000000000002" y1="361" y2="361" stroke="#6e7681" stroke-width="2" stroke-dasharray="0.1 6" stroke-linecap="round"/>
 <text x="455.20000000000005" y="381" fill="#ffa657">Token Spend:</text>
 <text x="925.6000000000001" y="381" fill="#7ee787" text-anchor="end">17.6B</text>

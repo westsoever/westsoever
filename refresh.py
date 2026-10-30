@@ -13,7 +13,7 @@ from datetime import date
 LOGIN = "westsoever"
 SVG = os.path.join(os.path.dirname(os.path.abspath(__file__)), "profile.svg")
 CW = 8.4  # monospace char width at font-size 14, same as the original generator
-BIRTH = date(2001, 8, 14)
+BIRTH = date(2001, 8, 1)  # birth month and year only; the day is left out on purpose
 
 QUERY = """query($login: String!, $after: String) {
   user(login: $login) {

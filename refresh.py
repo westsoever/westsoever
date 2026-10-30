@@ -17,12 +17,12 @@ BIRTH = date(2001, 8, 1)  # birth month and year only; the day is left out on pu
 
 QUERY = """query($login: String!, $after: String) {
   user(login: $login) {
-    id
     followers { totalCount }
+    contributionsCollection { contributionCalendar { totalContributions } }
     repositories(first: 100, after: $after, ownerAffiliations: OWNER) {
       totalCount
       pageInfo { hasNextPage endCursor }
-      nodes { stargazerCount defaultBranchRef { target { ... on Commit { history(author: {id: $id}) { totalCount } } } } }
+      nodes { stargazerCount }
     }
   }
 }"""
@@ -41,25 +41,20 @@ def gql(query, **variables):
 
 
 def stats():
-    uid = gql("query($login: String!) { user(login: $login) { id } }", login=LOGIN)["user"]["id"]
-    q = QUERY.replace("$after: String)", "$after: String, $id: ID!)")
-    stars = commits = 0
+    stars = 0
     after = None
     while True:
-        u = gql(q, login=LOGIN, after=after, id=uid)["user"]
+        u = gql(QUERY, login=LOGIN, after=after)["user"]
         repos = u["repositories"]
-        for n in repos["nodes"]:
-            stars += n["stargazerCount"]
-            ref = n["defaultBranchRef"]  # None for empty repos
-            commits += ref["target"]["history"]["totalCount"] if ref else 0
+        stars += sum(n["stargazerCount"] for n in repos["nodes"])
         if not repos["pageInfo"]["hasNextPage"]:
             break
         after = repos["pageInfo"]["endCursor"]
-    # Commits = own commits on each repo's default branch; GitHub's own total hides private ones.
+    # Commits = contributions in the last year, the number on the GitHub profile (private ones included).
     return {
         "Repos": f"{repos['totalCount']:,}",
         "Stars": f"{stars:,}",
-        "Commits": f"{commits:,}",
+        "Commits": f"{u['contributionsCollection']['contributionCalendar']['totalContributions']:,}",
         "Followers": f"{u['followers']['totalCount']:,}",
     }
 

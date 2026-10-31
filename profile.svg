@@ -29,7 +29,7 @@
 <text x="925.6000000000001" y="75" fill="#e6edf3" text-anchor="end">macOS, Linux</text>
 <line x1="488.80000000000007" x2="816.4000000000001" y1="72" y2="72" stroke="#6e7681" stroke-width="2" stroke-dasharray="0.1 6" stroke-linecap="round"/>
 <text x="455.20000000000005" y="92" fill="#ffa657">Uptime:</text>
-<text x="925.6000000000001" y="92" fill="#e6edf3" text-anchor="end">25 years, 2 months, 29 days</text>
+<text x="925.6000000000001" y="92" fill="#e6edf3" text-anchor="end">25 years, 2 months, 30 days</text>
 <line x1="522.4000000000001" x2="690.4000000000001" y1="89" y2="89" stroke="#6e7681" stroke-width="2" stroke-dasharray="0.1 6" stroke-linecap="round"/>
 <text x="455.20000000000005" y="109" fill="#ffa657">Host:</text>
 <text x="925.6000000000001" y="109" fill="#e6edf3" text-anchor="end">TechBBQ</text>
@@ -66,7 +66,7 @@
 <text x="925.6000000000001" y="347" fill="#7ee787" text-anchor="end">6</text>
 <line x1="514.0" x2="908.8000000000002" y1="344" y2="344" stroke="#6e7681" stroke-width="2" stroke-dasharray="0.1 6" stroke-linecap="round"/>
 <text x="455.20000000000005" y="364" fill="#ffa657">Commits:</text>
-<text x="925.6000000000001" y="364" fill="#7ee787" text-anchor="end">6,603</text>
+<text x="925.6000000000001" y="364" fill="#7ee787" text-anchor="end">6,642</text>
 <line x1="530.8000000000001" x2="875.2000000000002" y1="361" y2="361" stroke="#6e7681" stroke-width="2" stroke-dasharray="0.1 6" stroke-linecap="round"/>
 <text x="455.20000000000005" y="381" fill="#ffa657">Token Spend:</text>
 <text x="925.6000000000001" y="381" fill="#7ee787" text-anchor="end">17.6B</text>

@@ -1,0 +1,40 @@
+/* Layout and colours follow the "Index" portfolio theme used by matteofontana.eu. */
+* { box-sizing: border-box; }
+html { font-size: 15px; line-height: 1.6; letter-spacing: 0.005rem; overflow-y: scroll; -webkit-font-smoothing: antialiased; }
+body { margin: 0; padding: 28px; background: #fff; color: #222; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+h1, h2, p, ul { margin: 0; padding: 0; font-weight: normal; font-size: 1rem; }
+ul { list-style: none; }
+
+a { text-decoration: none; border-bottom: 1px solid transparent; transition: .25s ease-out; }
+
+/* Fixed header and menu on the left */
+#masthead { position: fixed; top: 28px; left: 28px; z-index: 102; }
+.site-title a { color: #222; }
+.site-title a:hover, .site-tagline { color: #aaa; }
+#primary { position: fixed; top: 148px; left: 28px; z-index: 101; }
+#primary a { color: #aaa; }
+#primary a:hover, #primary .current a { color: #222; }
+
+/* Content on the right */
+#content { margin: 120px 0 80px auto; max-width: 70%; }
+.entry-content > * { margin-bottom: 2rem; max-width: 640px; }
+.entry-content a { color: #e59927; }
+.entry-content a:hover { color: #222; border-bottom-color: #222; }
+.label { color: #bababa; }
+
+/* Mobile: hamburger opens the menu as a full-screen overlay */
+#menu-toggle { display: none; }
+@media screen and (max-width: 768px) {
+  html { font-size: 18px; }
+  #content { max-width: 100%; }
+  #menu-toggle { display: block; position: fixed; top: 29px; right: 28px; width: 24px; height: 21px; padding: 0; border: 0; background: none; cursor: pointer; z-index: 103; }
+  #menu-toggle span { position: absolute; left: 0; width: 100%; height: 2px; background: #222; transition: .15s ease-out; }
+  #menu-toggle span:nth-child(1) { top: 0; }
+  #menu-toggle span:nth-child(2) { top: 9px; }
+  #menu-toggle span:nth-child(3) { top: 18px; }
+  #menu-toggle.open span:nth-child(1) { top: 9px; transform: rotate(45deg); }
+  #menu-toggle.open span:nth-child(2) { opacity: 0; }
+  #menu-toggle.open span:nth-child(3) { top: 9px; transform: rotate(-45deg); }
+  #primary { top: 0; left: 0; right: 0; bottom: 0; padding: 148px 28px 0; background: #fff; visibility: hidden; opacity: 0; transition: visibility .35s, opacity .35s ease-out; }
+  #primary.showing { visibility: visible; opacity: 1; }
+}

@@ -21,6 +21,8 @@ a { text-decoration: none; border-bottom: 1px solid transparent; transition: .25
 .entry-content a { color: #ff5f00; }
 .entry-content a:hover { color: #222; border-bottom-color: #222; }
 .label { color: #bababa; }
+.entry-content ul { list-style: disc; padding-left: 1.2em; }
+.entry-content li { margin-bottom: .5rem; }
 
 /* Mobile: hamburger opens the menu as a full-screen overlay */
 #menu-toggle { display: none; }

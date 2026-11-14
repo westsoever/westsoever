@@ -1,11 +1,12 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="home">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Lennert Jessen</title>
 <meta name="description" content="Lennert Jessen, GenAI engineer in Denmark.">
 <link rel="stylesheet" href="style.css">
+<script>try { if (!matchMedia('(prefers-reduced-motion: reduce)').matches && (!sessionStorage.getItem('ws-intro') || (performance.getEntriesByType('navigation')[0] || {}).type === 'reload')) document.documentElement.classList.add('intro', 'intro-orange') } catch (e) {}</script>
 </head>
 <body>
 <header id="masthead">
@@ -14,9 +15,12 @@
 </header>
 <button id="menu-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
 <nav id="primary"><ul><li><a href="intro.html">intro</a></li><li><a href="bio.html">bio</a></li><li><a href="projects.html">projects</a></li><li><a href="content.html">content i like</a></li><li><a href="contacts.html">contacts</a></li></ul></nav>
-<main id="content" class="entry-content">
-<p>GenAI Engineer at TechBBQ in Denmark.<br>Co-founder of <a href="https://twinton.ai" target="_blank" rel="noreferrer noopener">Twinton</a>.</p>
+<main id="home">
+<h2 class="sr-only">The world is in your hands.</h2>
+<p id="hint">drag the globe</p>
 </main>
 <script src="menu.js"></script>
+<script src="globe.js"></script>
+<script src="intro.js"></script>
 </body>
 </html>

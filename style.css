@@ -18,7 +18,7 @@ a { text-decoration: none; border-bottom: 1px solid transparent; transition: .25
 /* Content on the right */
 #content { margin: 120px 0 80px auto; max-width: 70%; }
 .entry-content > * { margin-bottom: 2rem; max-width: 640px; }
-.entry-content a { color: #ff5f00; }
+.entry-content a { color: #af5f00; }
 .entry-content a:hover { color: #222; border-bottom-color: #222; }
 .label { color: #bababa; }
 
